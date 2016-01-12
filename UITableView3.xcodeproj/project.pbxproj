@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182BBB7B1C42AC9A00707A5D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182BBB7A1C42AC9A00707A5D /* TableViewController.m */; };
 		187253B21C42833F00259FFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187253B11C42833F00259FFA /* main.m */; };
 		187253B51C42833F00259FFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187253B41C42833F00259FFA /* AppDelegate.m */; };
-		187253B81C42833F00259FFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187253B71C42833F00259FFA /* ViewController.m */; };
 		187253BB1C42833F00259FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187253B91C42833F00259FFA /* Main.storyboard */; };
 		187253BD1C42833F00259FFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187253BC1C42833F00259FFA /* Images.xcassets */; };
 		187253C01C42833F00259FFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187253BE1C42833F00259FFA /* LaunchScreen.xib */; };
 		187253CC1C42833F00259FFA /* UITableView3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187253CB1C42833F00259FFA /* UITableView3Tests.m */; };
+		187253D81C42838600259FFA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 187253D71C42838600259FFA /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +28,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182BBB791C42AC9A00707A5D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		182BBB7A1C42AC9A00707A5D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		187253AC1C42833F00259FFA /* UITableView3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableView3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187253B01C42833F00259FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187253B11C42833F00259FFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		187253B31C42833F00259FFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		187253B41C42833F00259FFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		187253B61C42833F00259FFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		187253B71C42833F00259FFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		187253BA1C42833F00259FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		187253BC1C42833F00259FFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		187253BF1C42833F00259FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		187253C51C42833F00259FFA /* UITableView3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableView3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187253CA1C42833F00259FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187253CB1C42833F00259FFA /* UITableView3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableView3Tests.m; sourceTree = "<group>"; };
+		187253D61C42838600259FFA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		187253D71C42838600259FFA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +84,11 @@
 		187253AE1C42833F00259FFA /* UITableView3 */ = {
 			isa = PBXGroup;
 			children = (
+				182BBB791C42AC9A00707A5D /* TableViewController.h */,
+				182BBB7A1C42AC9A00707A5D /* TableViewController.m */,
+				187253D51C42837100259FFA /* Model */,
 				187253B31C42833F00259FFA /* AppDelegate.h */,
 				187253B41C42833F00259FFA /* AppDelegate.m */,
-				187253B61C42833F00259FFA /* ViewController.h */,
-				187253B71C42833F00259FFA /* ViewController.m */,
 				187253B91C42833F00259FFA /* Main.storyboard */,
 				187253BC1C42833F00259FFA /* Images.xcassets */,
 				187253BE1C42833F00259FFA /* LaunchScreen.xib */,
@@ -117,6 +121,15 @@
 				187253CA1C42833F00259FFA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		187253D51C42837100259FFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				187253D61C42838600259FFA /* Person.h */,
+				187253D71C42838600259FFA /* Person.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +232,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187253B81C42833F00259FFA /* ViewController.m in Sources */,
 				187253B51C42833F00259FFA /* AppDelegate.m in Sources */,
+				187253D81C42838600259FFA /* Person.m in Sources */,
 				187253B21C42833F00259FFA /* main.m in Sources */,
+				182BBB7B1C42AC9A00707A5D /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +426,7 @@
 				187253D11C42833F00259FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		187253D21C42833F00259FFA /* Build configuration list for PBXNativeTarget "UITableView3Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +435,7 @@
 				187253D41C42833F00259FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
